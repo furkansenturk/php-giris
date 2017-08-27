@@ -1,5 +1,5 @@
 # PHP GİRİŞ (CLASS)
-;
+
 | İşlem | Açıklama |
 | ------ | ------ |
 | $giris = new Giris($db) | $db değişkeni pdo bağlantısı olmalı (giris.class.php içerisinde)|
