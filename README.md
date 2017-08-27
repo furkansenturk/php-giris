@@ -1,6 +1,5 @@
 # PHP GİRİŞ (CLASS)
 
-PHP GİRİŞ KULLANICAL
 
 | İşlem | Açıklama |
 | ------ | ------ |
