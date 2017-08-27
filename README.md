@@ -1,8 +1,8 @@
 # PHP GİRİŞ (CLASS)
-
-
+;
 | İşlem | Açıklama |
 | ------ | ------ |
+| $giris = new Giris($db) | $db değişkeni pdo bağlantısı olmalı (giris.class.php içerisinde)|
 | $giris->kontrol_zaman(**10**) | belirli bir süre kullanıcı işlem yapmaz ise atar (dk) (giris.class.php içerisinde)|
 | $giris->giris_sayfasi("giris.html"); | Giriş sayfasının linki (giris.class.php içerisinde)|
 | $giris->giris(**$tablo**,**$sorgu**) | Giriş sayfasından gelen verileri sorgular|
