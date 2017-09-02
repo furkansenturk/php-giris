@@ -42,6 +42,7 @@ class Giris {
 			$this->session("yenileme",time());
 			return true;
 		}else{
+			$this->yonlendir($this->giris_sayfasi);
 			return false;
 		}
 	}
