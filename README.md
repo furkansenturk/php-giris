@@ -20,7 +20,7 @@ Post ile gelen verileri sorgulamak amacıyla
         "kullanici_sifre" => $_POST["sifre"],
         "yetki" => 1
     );
-    $this->giris("uyeler",$sorgu);
+    $giris->giris("mb_kullanici",$a);
 ?>
 ```
 Giriş yapılmış sayfada eklenecek
