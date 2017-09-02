@@ -20,7 +20,10 @@ Post ile gelen verileri sorgulamak amacıyla
         "kullanici_sifre" => $_POST["sifre"],
         "yetki" => 1
     );
-    $giris->giris("kullanicilar",$a);
+    $giris_yapildimi = $giris->giris("kullanicilar",$a);
+    if($giris_yapildimi){
+        header("Location: index.php");
+    }
 ?>
 ```
 Giriş yapılmış sayfada eklenecek
