@@ -101,5 +101,6 @@ class Giris {
 	}
 }
 $giris = new Giris($db);
-
+//$giris->kontrol_zaman(10);
+//$giris->giris_sayfasi("giris.html");
 ?>
