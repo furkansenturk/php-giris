@@ -16,11 +16,11 @@ Post ile gelen verileri sorgulamak amacıyla
 <?php
     require_once("giris.class.php");
     $sorgu = array(
-        "kullanici_adi" => $_POST["adi"],
-        "kullanici_sifre" => $_POST["sifre"],
+        "kullanici_adi" => @$_POST["adi"],
+        "kullanici_sifre" => @$_POST["sifre"],
         "yetki" => 1
     );
-    $giris_yapildimi = $giris->giris("kullanicilar",$a);
+    $giris_yapildimi = $giris->giris("kullanicilar",$sorgu);
     if($giris_yapildimi){
         header("Location: index.php");
     }
