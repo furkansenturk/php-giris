@@ -70,10 +70,6 @@ class Giris {
 			return false;
 		}
 	}
-	private function id_sorgu(){
-
-		$this->db->prepare("SELECT COUNT(*) FROM ".$x." WHERE ".$z);
-	}	
 	private function session($x,$y = null){
 		$this->session_start();
 		if($y == null){
